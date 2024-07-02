@@ -1,0 +1,52 @@
+{
+  "id": "ticket-to-the-afterlife",
+  "title": "Ticket to the Afterlife",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.313"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "night-city-gang-and-corp-mook-pack",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "cyberpunk-red-core",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "ticket-to-the-afterlife",
+      "label": "Ticket to the Afterlife",
+      "path": "packs/ticket-to-the-afterlife",
+      "type": "Adventure",
+      "system": "cyberpunk-red-core",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ttta-rollable-tables",
+      "label": "TttA - Rollable Tables",
+      "path": "packs/ttta-rollable-tables",
+      "type": "RollTable",
+      "system": "cyberpunk-red-core",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "description": "Ticket To The Afterlife - an original Cyberpunk RED adventure designed for Foundry Virtual Tabletop. Includes 6 original missions spanning half the city, two dozen maps and scenes, a dozen new mooks, city ambience, a unique currency system, half a dozen services for the Night City edgerunning community, and more!\n\n<i>Way back when, there was a hole in the wall called the Afterlife, where everyone who was anyone could get together and talk business. Real business - the kind of business where legends were made.</i>\n\n<i>It's all gone, now, but rumor has it, there's new neon being put in at one of the hotels in Upper Marina, and fixers scouring the city for edgerunners with the style, means and ability to get things done. The red decades are finally coming to an end, choom, and corps got money to burn once again. Edgerunning's as essential a part of Night City as corruption and gangs - why shouldn't it be true?</i>\n\n<i>If you're interested, check the card, slot the coin, and help rebuild Night City's edgerunning community from the ground up. Serve, and be of service.</i>",
+  "manifest": "https://github.com/TheInvaderZim/Ticket-To-The-Afterlife/releases/download/v1.0/module.json",
+  "download": "https://github.com/TheInvaderZim/night-city-gang-and-corp-mook-pack/releases/download/v1.0/module.zip"
+}
